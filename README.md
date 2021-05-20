@@ -1,37 +1,25 @@
-# <u> Good-README-Generator </u>
 
-## <u>Project Goals</u>
-
-* 
-* 
-* 
-
-
-## <u>Project Description</u>
-
-* 
-* 
-* 
-
-## <u>Action Items</u> 
-
-1) 
-2)
-3)
-
-
-## <u>Troubleshooting / Still In Progress</u> 
-1)
-
-<!-- Insert Screenshot of Good README Generator below after styling complete -->
-
- <!-- <img src="Screenshot (34).png" alt="Day Planner Image 1">
-
- <img src="Screenshot (35).png" alt="Day Planner Image 2">  -->
-
-
-## <u>Live Link to Deployed Page</u>
- 
-
-# Contact Information
-* Adam Spiegel GitHub - https://github.com/AdamSpiegel
+  # Professional README.md
+  # 
+  ## Table of Contents
+  1)2)3)
+  ## Description
+  Auto Generator
+  ## Installation
+  Follow these steps
+  ## Project Usage 
+  Time Saver
+  ## License Information
+  
+  ## Project Contributors 
+  Adam Spiegel
+  ## Testing 
+  Yes
+  ## Further Questions?
+  No
+  ### Github Profile Page
+  [Github Profile](https://github.com/AdamSpiegel)
+  ### Contact
+  [Email](mailto:adamspiegel23@gmail.com)
+  ![image] (C:UsersAspieDesktopHomework AssignmentsGood-README-GeneratorResume Photo.png)
+  
