@@ -1,4 +1,5 @@
-// TODO: Include packages needed for this application
+// Inquire and fs installed packages necessary to run application.
+// generateMardown function need to for module.export and rawListeners needed for raw list via line 36
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require('./generateMarkdown.js');
@@ -17,12 +18,6 @@ const questions = [
         type: "input",
         message: "Please enter your project description.",
         name: "description"
-    },
-
-    {
-        type: "input",
-        message: "Create a table of contents.",
-        name: "tableofcontents"
     },
 
     {
@@ -52,21 +47,14 @@ const questions = [
 
     {
         type: "input",
-        message: "Where there any tests run on this project?",
+        message: "What are your testing instructions?",
         name: "tests"
-    },
-
-    {
-        type: "input",
-        message: "Do you have any futher questions?",
-        name: "questions"
     },
 
     {
         type: "input",
         message: "What is your Github username?",
         name: "github"
-
     },
 
     {
@@ -77,14 +65,14 @@ const questions = [
 
 ]
 
-// TODO: Create a function to write README file
+// Creating the writeToFile function utilizing the fs package to generate data to README.md
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('Successfully created README.md')
     );
 }
 
-// TODO: Create a function to initialize app
+// Utilizes init function to prompt user with questions, and then console log there answers. Finally proceeding to write the actual file via the generateMardown function
 function init() {
     inquirer.prompt(questions).then(answers => {
         console.log(answers);
